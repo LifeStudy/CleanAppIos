@@ -7,25 +7,7 @@
 
 import XCTest
 import Domain
-
-class RemoteAddAccount {
-    private let url: URL
-    private let httpClient: HttpPostClient
-    
-    init(url: URL, httpClient:HttpPostClient) {
-        self.url = url
-        self.httpClient = httpClient
-    }
-    
-    func add(addAccountModel: AddAccountModel) {
-        let data = try? JSONEncoder().encode(addAccountModel)
-        httpClient.post(to: url, with: data)
-    }
-}
-
-protocol HttpPostClient {
-    func post(to url: URL, with data: Data?)
-}
+import Data
 
 class RemoteAddAccountTests: XCTestCase {
     func test_add_call_correct_url() throws {
@@ -40,8 +22,7 @@ class RemoteAddAccountTests: XCTestCase {
         let (sut, httpClientSpy) = makeSut()
         let addAccountModel = makeAddAccountModel()
         sut.add(addAccountModel: addAccountModel)
-        let data = try? JSONEncoder().encode(addAccountModel)
-        XCTAssertEqual(httpClientSpy.data, data)
+        XCTAssertEqual(httpClientSpy.data, addAccountModel.toData())
     }
 }
 
