@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct AccountModel {
-    var name: String
-    var email: String
-    var token: String
-    var notifications: Bool
+public struct AccountModel {
+    public var name: String
+    public var email: String
+    public var token: String
+    public var notifications: Bool
 }

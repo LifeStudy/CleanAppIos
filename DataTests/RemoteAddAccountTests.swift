@@ -1,6 +1,6 @@
 //
-//  DataTests.swift
-//  DataTests
+//  RemoteAddAccountTests.swift
+//  RemoteAddAccountTests
 //
 //  Created by bruno araujo on 15/06/21.
 //
@@ -33,7 +33,9 @@ class RemoteAddAccountTests: XCTestCase {
         sut.add()
         XCTAssertEqual(hrrpClientSpy.url, url)
     }
-    
+}
+
+extension RemoteAddAccountTests{
     class HttpClientSpy: HttpPostClient {
         var url:URL?
         
