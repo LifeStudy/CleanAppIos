@@ -13,6 +13,10 @@ func makeInvalidData() -> Data {
 
 func makeValidData() -> Data {
      return Data("{\"name\":\"Araujo\"}".utf8)
+}
+
+func makeError() -> Error {
+     return NSError(domain: "any_error", code: 0)
  }
 
 func makeUrl() -> URL {
