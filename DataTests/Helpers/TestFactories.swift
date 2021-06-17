@@ -12,12 +12,20 @@ func makeInvalidData() -> Data {
 }
 
 func makeValidData() -> Data {
-     return Data("{\"name\":\"Araujo\"}".utf8)
+    return Data("{\"name\":\"Araujo\"}".utf8)
 }
 
 func makeError() -> Error {
-     return NSError(domain: "any_error", code: 0)
+    return NSError(domain: "any_error", code: 0)
+}
+
+func makeEmptyData() -> Data {
+     return Data()
  }
+
+func makeHttpResponse(statusCode: Int = 200) -> HTTPURLResponse {
+    return HTTPURLResponse(url: makeUrl(), statusCode: statusCode, httpVersion: nil, headerFields: nil)!
+}
 
 func makeUrl() -> URL {
     return URL(string: "http://any-url.com")!
