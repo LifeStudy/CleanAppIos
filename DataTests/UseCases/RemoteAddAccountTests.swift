@@ -83,6 +83,6 @@ extension RemoteAddAccountTests{
     }
     
     func makeAddAccountModel() -> AddAccountModel {
-        return AddAccountModel(name: "any_name", email: "any_email", password: "any_password", notifications: true)
+        return AddAccountModel(name: "any_name", email: "any_email", password: "any_password", passwordConfirmation:"any_password_confirmation", notifications: true)
     }
 }
