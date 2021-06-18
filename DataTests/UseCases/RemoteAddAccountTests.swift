@@ -71,8 +71,7 @@ extension RemoteAddAccountTests{
         let exp = expectation(description: "waiting")
         sut.add(addAccountModel: makeAddAccountModel()) { receivedResult in
             switch (expectedResult, receivedResult) {
-            case (.failure(let expectedError), .failure(let receivedError)): XCTAssertEqual(expectedError, receivedError,
-                                                                                            file: file,  line: line)
+            case (.failure(let expectedError), .failure(let receivedError)): XCTAssertEqual(expectedError, receivedError, file: file,  line: line)
             case (.success(let expectedAccount), .success(let receivedAccount)): XCTAssertEqual(expectedAccount, receivedAccount, file: file,  line: line)
             default: XCTFail("Expected \(expectedResult) received \(receivedResult) instead", file: file,  line: line)
             }
@@ -80,9 +79,5 @@ extension RemoteAddAccountTests{
         }
         action()
         wait(for: [exp], timeout: 1)
-    }
-    
-    func makeAddAccountModel() -> AddAccountModel {
-        return AddAccountModel(name: "any_name", email: "any_email", password: "any_password", passwordConfirmation:"any_password_confirmation", notifications: true)
     }
 }
