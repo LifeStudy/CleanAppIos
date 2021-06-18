@@ -16,7 +16,7 @@ class AddAccountIntegrationTests: XCTestCase {
         let url = URL(string: "https://www.abibliadigital.com.br/api/users")!
         //let url = URL(string: "https://clean-node-api.herokuapp.com/api/signup")!
         let sut = RemoteAddAccount(url: url, httpClient: alamofireAdapter)
-        let addAccountModel = AddAccountModel(name: "Bruno Araujo", email: "bruno3@email.com", password: "123456", notifications: false)
+        let addAccountModel = AddAccountModel(name: "Bruno Araujo", email: "bruno6@email.com", password: "123456", passwordConfirmation: "123456", notifications: false)
         let exp = expectation(description: "waiting")
         sut.add(addAccountModel: addAccountModel) { result in
         switch result {

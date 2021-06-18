@@ -150,6 +150,13 @@
             BlueprintName = "Infra"
             ReferencedContainer = "container:CleanAppIos.xcodeproj">
          </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E80D99A267CE19B004902F9"
+            BuildableName = "Presentation.framework"
+            BlueprintName = "Presentation"
+            ReferencedContainer = "container:CleanAppIos.xcodeproj">
+         </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
          <TestableReference
