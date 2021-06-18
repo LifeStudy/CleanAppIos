@@ -36,6 +36,8 @@
 		7E40D7DC2679688700E5D1C2 /* HttpPostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E40D7DB2679688700E5D1C2 /* HttpPostClient.swift */; };
 		7E80D9A4267CE19B004902F9 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; };
 		7E80D9A9267CE19B004902F9 /* SignUpPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9A8267CE19B004902F9 /* SignUpPresenterTests.swift */; };
+		7E80D9B4267D1684004902F9 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9B3267D1684004902F9 /* SignUpPresenter.swift */; };
+		7E80D9B7267D16CE004902F9 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9B6267D16CE004902F9 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +159,8 @@
 		7E80D9A3267CE19B004902F9 /* PresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E80D9A8267CE19B004902F9 /* SignUpPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenterTests.swift; sourceTree = "<group>"; };
 		7E80D9AA267CE19B004902F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E80D9B3267D1684004902F9 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		7E80D9B6267D16CE004902F9 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +424,8 @@
 		7E80D99C267CE19B004902F9 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				7E80D9B5267D16C0004902F9 /* Views */,
+				7E80D9B2267D166D004902F9 /* Presenters */,
 				7E80D99E267CE19B004902F9 /* Info.plist */,
 			);
 			path = Presentation;
@@ -432,6 +438,22 @@
 				7E80D9AA267CE19B004902F9 /* Info.plist */,
 			);
 			path = PresentationTests;
+			sourceTree = "<group>";
+		};
+		7E80D9B2267D166D004902F9 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				7E80D9B3267D1684004902F9 /* SignUpPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		7E80D9B5267D16C0004902F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E80D9B6267D16CE004902F9 /* AlertView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -653,6 +675,7 @@
 					};
 					7E80D99A267CE19B004902F9 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					7E80D9A2267CE19B004902F9 = {
 						CreatedOnToolsVersion = 12.5;
@@ -812,6 +835,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E80D9B4267D1684004902F9 /* SignUpPresenter.swift in Sources */,
+				7E80D9B7267D16CE004902F9 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1246,6 +1271,7 @@
 		7E80D9AC267CE19B004902F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1262,6 +1288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ios.Presentation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1269,6 +1296,7 @@
 		7E80D9AD267CE19B004902F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1292,6 +1320,7 @@
 		7E80D9AE267CE19B004902F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PresentationTests/Info.plist;
@@ -1309,6 +1338,7 @@
 		7E80D9AF267CE19B004902F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PresentationTests/Info.plist;
