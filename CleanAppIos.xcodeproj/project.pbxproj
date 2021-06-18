@@ -41,6 +41,7 @@
 		7E80D9BA267D1A18004902F9 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9B9267D1A18004902F9 /* EmailValidator.swift */; };
 		7E80D9BB267D1A36004902F9 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E40D7A92679288C00E5D1C2 /* Domain.framework */; };
 		7E80D9BC267D2C80004902F9 /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE01C267A8891003BE490 /* AccountModelFactory.swift */; };
+		7E80D9C0267D3890004902F9 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE015267A8779003BE490 /* TestExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -860,6 +861,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E80D9BC267D2C80004902F9 /* AccountModelFactory.swift in Sources */,
+				7E80D9C0267D3890004902F9 /* TestExtensions.swift in Sources */,
 				7E80D9A9267CE19B004902F9 /* SignUpPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
