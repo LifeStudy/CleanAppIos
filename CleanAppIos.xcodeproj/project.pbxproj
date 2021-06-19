@@ -44,6 +44,7 @@
 		7E80D9C0267D3890004902F9 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE015267A8779003BE490 /* TestExtensions.swift */; };
 		7E80D9C2267D3AD2004902F9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9C1267D3AD2004902F9 /* LoadingView.swift */; };
 		7E80D9C5267E29B9004902F9 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9C4267E29B9004902F9 /* SignUpViewModel.swift */; };
+		7E80D9C7267E2AC1004902F9 /* SignUpMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9C6267E2AC1004902F9 /* SignUpMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +171,7 @@
 		7E80D9B9267D1A18004902F9 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		7E80D9C1267D3AD2004902F9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		7E80D9C4267E29B9004902F9 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		7E80D9C6267E2AC1004902F9 /* SignUpMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -481,6 +483,7 @@
 			children = (
 				7E80D9B3267D1684004902F9 /* SignUpPresenter.swift */,
 				7E80D9C4267E29B9004902F9 /* SignUpViewModel.swift */,
+				7E80D9C6267E2AC1004902F9 /* SignUpMapper.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -864,6 +867,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E80D9C7267E2AC1004902F9 /* SignUpMapper.swift in Sources */,
 				7E80D9B4267D1684004902F9 /* SignUpPresenter.swift in Sources */,
 				7E80D9C2267D3AD2004902F9 /* LoadingView.swift in Sources */,
 				7E80D9C5267E29B9004902F9 /* SignUpViewModel.swift in Sources */,
