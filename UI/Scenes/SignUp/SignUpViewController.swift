@@ -36,8 +36,10 @@ final class SignUpViewController: UIViewController {
 extension SignUpViewController: LoadingView {
     func display(viewModel: LoadingViewModel) {
         if viewModel.isLoading {
+            view.isUserInteractionEnabled = false
             loadingIndicator?.startAnimating()
         } else {
+            view.isUserInteractionEnabled = true
             loadingIndicator?.stopAnimating()
         }
     }
