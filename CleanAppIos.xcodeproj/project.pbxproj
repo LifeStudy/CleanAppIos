@@ -54,6 +54,8 @@
 		7E80D9EA267E81CE004902F9 /* SignUpViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9E9267E81CE004902F9 /* SignUpViewControllerTests.swift */; };
 		7EABDDBA2680C0D100DD2827 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; };
 		7EABDDBB2680C0D100DD2827 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7EABDDC02680C2E000DD2827 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */; };
+		7EABDDC42680C4EB00DD2827 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +218,8 @@
 		7E80D9E4267E81CE004902F9 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E80D9E9267E81CE004902F9 /* SignUpViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewControllerTests.swift; sourceTree = "<group>"; };
 		7E80D9EB267E81CE004902F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -601,6 +605,8 @@
 			isa = PBXGroup;
 			children = (
 				7E80D9DF267E81CE004902F9 /* Info.plist */,
+				7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */,
+				7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -885,6 +891,7 @@
 					};
 					7E80D9DB267E81CE004902F9 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					7E80D9E3267E81CE004902F9 = {
 						CreatedOnToolsVersion = 12.5;
@@ -982,6 +989,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EABDDC42680C4EB00DD2827 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1088,6 +1096,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EABDDC02680C2E000DD2827 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1633,6 +1642,7 @@
 		7E80D9EE267E81CE004902F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1650,6 +1660,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -1657,6 +1668,7 @@
 		7E80D9EF267E81CE004902F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1681,6 +1693,7 @@
 		7E80D9F1267E81CE004902F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UITests/Info.plist;
@@ -1699,6 +1712,7 @@
 		7E80D9F2267E81CE004902F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = UITests/Info.plist;
