@@ -56,6 +56,7 @@
 		7EABDDBB2680C0D100DD2827 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7EABDDC02680C2E000DD2827 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */; };
 		7EABDDC42680C4EB00DD2827 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */; };
+		7EABDDCB2681090000DD2827 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDCA2681090000DD2827 /* TestExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +221,7 @@
 		7E80D9EB267E81CE004902F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		7EABDDCA2681090000DD2827 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -613,6 +615,7 @@
 		7E80D9E8267E81CE004902F9 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				7EABDDC9268108E400DD2827 /* Helpers */,
 				7EABDDC72680D8D100DD2827 /* Scenes */,
 				7E80D9EB267E81CE004902F9 /* Info.plist */,
 			);
@@ -650,6 +653,14 @@
 				7E80D9E9267E81CE004902F9 /* SignUpViewControllerTests.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		7EABDDC9268108E400DD2827 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7EABDDCA2681090000DD2827 /* TestExtensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1137,6 +1148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E80D9EA267E81CE004902F9 /* SignUpViewControllerTests.swift in Sources */,
+				7EABDDCB2681090000DD2827 /* TestExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
