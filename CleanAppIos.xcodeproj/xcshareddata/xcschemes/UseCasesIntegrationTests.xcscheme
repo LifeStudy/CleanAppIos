@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E152FDE267BD4C6008FB730"
-               BuildableName = "UsaCasesIntegrationTests.xctest"
-               BlueprintName = "UsaCasesIntegrationTests"
+               BuildableName = "UseCasesIntegrationTests.xctest"
+               BlueprintName = "UseCasesIntegrationTests"
                ReferencedContainer = "container:CleanAppIos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,8 +35,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E152FDE267BD4C6008FB730"
-               BuildableName = "UsaCasesIntegrationTests.xctest"
-               BlueprintName = "UsaCasesIntegrationTests"
+               BuildableName = "UseCasesIntegrationTests.xctest"
+               BlueprintName = "UseCasesIntegrationTests"
                ReferencedContainer = "container:CleanAppIos.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E152FDE267BD4C6008FB730"
-            BuildableName = "UsaCasesIntegrationTests.xctest"
-            BlueprintName = "UsaCasesIntegrationTests"
+            BuildableName = "UseCasesIntegrationTests.xctest"
+            BlueprintName = "UseCasesIntegrationTests"
             ReferencedContainer = "container:CleanAppIos.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

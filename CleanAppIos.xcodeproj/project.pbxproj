@@ -305,7 +305,7 @@
 		7E152FC3267B77BC008FB730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E152FD6267BC6D9008FB730 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
 		7E152FD9267BC860008FB730 /* UrlProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolStub.swift; sourceTree = "<group>"; };
-		7E152FDF267BD4C6008FB730 /* UsaCasesIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsaCasesIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E152FDF267BD4C6008FB730 /* UseCasesIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseCasesIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E152FE1267BD4C6008FB730 /* AddAccountIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountIntegrationTests.swift; sourceTree = "<group>"; };
 		7E152FE3267BD4C6008FB730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E1AE00D267A418E003BE490 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
@@ -615,7 +615,7 @@
 				7E40D7C226793DEC00E5D1C2 /* DataTests.xctest */,
 				7E152FB4267B77BC008FB730 /* Infra.framework */,
 				7E152FBC267B77BC008FB730 /* InfraTests.xctest */,
-				7E152FDF267BD4C6008FB730 /* UsaCasesIntegrationTests.xctest */,
+				7E152FDF267BD4C6008FB730 /* UseCasesIntegrationTests.xctest */,
 				7E80D99B267CE19B004902F9 /* Presentation.framework */,
 				7E80D9A3267CE19B004902F9 /* PresentationTests.xctest */,
 				7E80D9DC267E81CE004902F9 /* UI.framework */,
@@ -1072,9 +1072,9 @@
 			productReference = 7E152FBC267B77BC008FB730 /* InfraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7E152FDE267BD4C6008FB730 /* UsaCasesIntegrationTests */ = {
+		7E152FDE267BD4C6008FB730 /* UseCasesIntegrationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E152FE7267BD4C6008FB730 /* Build configuration list for PBXNativeTarget "UsaCasesIntegrationTests" */;
+			buildConfigurationList = 7E152FE7267BD4C6008FB730 /* Build configuration list for PBXNativeTarget "UseCasesIntegrationTests" */;
 			buildPhases = (
 				7E152FDB267BD4C6008FB730 /* Sources */,
 				7E152FDC267BD4C6008FB730 /* Frameworks */,
@@ -1087,9 +1087,9 @@
 				7E152FED267BD4E4008FB730 /* PBXTargetDependency */,
 				7E152FE6267BD4C6008FB730 /* PBXTargetDependency */,
 			);
-			name = UsaCasesIntegrationTests;
-			productName = UsaCasesIntegrationTests;
-			productReference = 7E152FDF267BD4C6008FB730 /* UsaCasesIntegrationTests.xctest */;
+			name = UseCasesIntegrationTests;
+			productName = UseCasesIntegrationTests;
+			productReference = 7E152FDF267BD4C6008FB730 /* UseCasesIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		7E40D7A82679288C00E5D1C2 /* Domain */ = {
@@ -1405,7 +1405,7 @@
 				7E40D7C126793DEC00E5D1C2 /* DataTests */,
 				7E152FB3267B77BC008FB730 /* Infra */,
 				7E152FBB267B77BC008FB730 /* InfraTests */,
-				7E152FDE267BD4C6008FB730 /* UsaCasesIntegrationTests */,
+				7E152FDE267BD4C6008FB730 /* UseCasesIntegrationTests */,
 				7E80D99A267CE19B004902F9 /* Presentation */,
 				7E80D9A2267CE19B004902F9 /* PresentationTests */,
 				7E80D9DB267E81CE004902F9 /* UI */,
@@ -1898,13 +1898,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UsaCasesIntegrationTests/Info.plist;
+				INFOPLIST_FILE = UseCasesIntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ios.UsaCasesIntegrationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ios.UseCasesIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
@@ -1916,13 +1916,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UsaCasesIntegrationTests/Info.plist;
+				INFOPLIST_FILE = UseCasesIntegrationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ios.UsaCasesIntegrationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clean.app.ios.UseCasesIntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
@@ -2609,7 +2609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E152FE7267BD4C6008FB730 /* Build configuration list for PBXNativeTarget "UsaCasesIntegrationTests" */ = {
+		7E152FE7267BD4C6008FB730 /* Build configuration list for PBXNativeTarget "UseCasesIntegrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E152FE8267BD4C6008FB730 /* Debug */,
