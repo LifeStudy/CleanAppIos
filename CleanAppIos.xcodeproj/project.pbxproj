@@ -75,6 +75,7 @@
 		7E912818268250BD00150485 /* UseCaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E912817268250BD00150485 /* UseCaseFactory.swift */; };
 		7E91281B2682534500150485 /* WeakVarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91281A2682534500150485 /* WeakVarProxy.swift */; };
 		7E9128202682587500150485 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91281F2682587500150485 /* Environment.swift */; };
+		7E9128222682607A00150485 /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9C9267E30DD004902F9 /* TestFactories.swift */; };
 		7EA182862681213C00A2F5DC /* EmailValidatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA182852681213C00A2F5DC /* EmailValidatorAdapter.swift */; };
 		7EABDDBA2680C0D100DD2827 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; };
 		7EABDDBB2680C0D100DD2827 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -1646,6 +1647,7 @@
 			files = (
 				7E91281326824FF200150485 /* AddAccountSpy.swift in Sources */,
 				7E9128142682500600150485 /* TestExtensions.swift in Sources */,
+				7E9128222682607A00150485 /* TestFactories.swift in Sources */,
 				7E9128162682502B00150485 /* SignUpComposerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
