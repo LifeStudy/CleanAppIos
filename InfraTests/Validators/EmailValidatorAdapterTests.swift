@@ -5,8 +5,7 @@
 //  Created by bruno araujo on 21/06/21.
 //
 import XCTest
-import Presentation
-import Validation
+import Infra
 
 class EmailValidatorAdapterTests: XCTestCase {
     func test_invalid_emails() {
@@ -20,9 +19,9 @@ class EmailValidatorAdapterTests: XCTestCase {
 
     func test_valid_emails() {
         let sut = makeSut()
-        XCTAssertTrue(sut.isValid(email: "rodrigo@gmail.com"))
-        XCTAssertTrue(sut.isValid(email: "rodrigo@hotmail.com"))
-        XCTAssertTrue(sut.isValid(email: "rodrigo@hotmail.com"))
+        XCTAssertTrue(sut.isValid(email: "Araujo@gmail.com"))
+        XCTAssertTrue(sut.isValid(email: "Araujo@hotmail.com"))
+        XCTAssertTrue(sut.isValid(email: "Araujo@hotmail.com"))
     }
 }
 

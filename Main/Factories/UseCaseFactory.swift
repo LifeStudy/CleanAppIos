@@ -19,7 +19,7 @@ final class UseCaseFactory {
     }
 
     static func makeRemoteAddAccount() -> AddAccount {
-        let remoteAddAccount = RemoteAddAccount(url: makeUrl(path: "signup"), httpClient: httpClient)
+        let remoteAddAccount = RemoteAddAccount(url: makeUrl(path: "users"), httpClient: httpClient)
         return MainQueueDispatchDecorator(remoteAddAccount)
     }
 }
