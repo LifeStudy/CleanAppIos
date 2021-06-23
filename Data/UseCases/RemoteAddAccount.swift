@@ -29,7 +29,7 @@ public final class RemoteAddAccount: AddAccount {
                 }
             case .failure(let error):
                 switch error {
-                case .forbidden:
+                case .badRequest:
                     completion(.failure(.emailInUse))
                 default:
                     completion(.failure(.unexpected))
