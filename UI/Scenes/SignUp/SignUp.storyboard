@@ -25,7 +25,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="95m-uz-JOf">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="95m-uz-JOf" customClass="RoundedTextField" customModule="UI" customModuleProvider="target">
                                 <rect key="frame" x="10" y="257" width="394" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <constraints>
@@ -35,21 +35,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6bn-AS-Teh">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6bn-AS-Teh" customClass="RoundedTextField" customModule="UI" customModuleProvider="target">
                                 <rect key="frame" x="10" y="352" width="394" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5cb-m6-EDr">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5cb-m6-EDr" customClass="RoundedTextField" customModule="UI" customModuleProvider="target">
                                 <rect key="frame" x="10" y="447" width="394" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar Senha:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Qk-lj-OiL">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar Senha:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Qk-lj-OiL" customClass="RoundedTextField" customModule="UI" customModuleProvider="target">
                                 <rect key="frame" x="10" y="542" width="394" height="50"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -64,8 +64,8 @@
                                 </state>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Eb3-K4-1Sd">
-                                <rect key="frame" x="345" y="705" width="37" height="36"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="183" y="778" width="37" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
@@ -75,12 +75,12 @@
                             <constraint firstItem="yIA-cC-FAI" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="6Wu-el-sUv"/>
                             <constraint firstItem="yIA-cC-FAI" firstAttribute="top" secondItem="Ayw-Qe-Imf" secondAttribute="bottom" constant="18" id="6X7-vR-sbo"/>
                             <constraint firstItem="4VB-Pr-n3s" firstAttribute="width" secondItem="0Qk-lj-OiL" secondAttribute="width" id="6jE-9E-RaI"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Eb3-K4-1Sd" secondAttribute="bottom" constant="121" id="7it-yj-t66"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Eb3-K4-1Sd" secondAttribute="bottom" constant="48" id="7it-yj-t66"/>
                             <constraint firstItem="95m-uz-JOf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="9fi-oO-a88"/>
                             <constraint firstItem="95m-uz-JOf" firstAttribute="top" secondItem="yIA-cC-FAI" secondAttribute="bottom" constant="90" id="CKs-oM-5Xk"/>
-                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="top" secondItem="4VB-Pr-n3s" secondAttribute="bottom" constant="-43" id="Czf-w4-gfH"/>
+                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="top" secondItem="4VB-Pr-n3s" secondAttribute="bottom" constant="30" id="Czf-w4-gfH"/>
                             <constraint firstItem="Ayw-Qe-Imf" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="DXj-Ay-ghF"/>
-                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="centerY" secondItem="4VB-Pr-n3s" secondAttribute="centerY" id="GwV-fI-ckl"/>
+                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="centerY" secondItem="4VB-Pr-n3s" secondAttribute="centerY" constant="73" id="GwV-fI-ckl"/>
                             <constraint firstItem="0Qk-lj-OiL" firstAttribute="width" secondItem="5cb-m6-EDr" secondAttribute="width" id="Hee-HT-6id"/>
                             <constraint firstItem="0Qk-lj-OiL" firstAttribute="top" secondItem="5cb-m6-EDr" secondAttribute="bottom" constant="45" id="Ia6-61-Eqd"/>
                             <constraint firstItem="Ayw-Qe-Imf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="43" id="LSK-Sv-wGi"/>
@@ -97,7 +97,7 @@
                             <constraint firstItem="yIA-cC-FAI" firstAttribute="centerX" secondItem="Ayw-Qe-Imf" secondAttribute="centerX" id="mgS-vL-SYz"/>
                             <constraint firstItem="5cb-m6-EDr" firstAttribute="leading" secondItem="6bn-AS-Teh" secondAttribute="leading" id="mjJ-hJ-bry"/>
                             <constraint firstItem="4VB-Pr-n3s" firstAttribute="top" secondItem="0Qk-lj-OiL" secondAttribute="bottom" constant="106" id="mpI-Yz-XhI"/>
-                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="345" id="oew-Ha-gu4"/>
+                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="183" id="oew-Ha-gu4"/>
                             <constraint firstItem="5cb-m6-EDr" firstAttribute="trailing" secondItem="6bn-AS-Teh" secondAttribute="trailing" id="omO-je-xT2"/>
                             <constraint firstItem="6bn-AS-Teh" firstAttribute="height" secondItem="95m-uz-JOf" secondAttribute="height" id="rli-Kd-3h2"/>
                             <constraint firstItem="Ayw-Qe-Imf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="178" id="sbg-D3-Thv"/>
