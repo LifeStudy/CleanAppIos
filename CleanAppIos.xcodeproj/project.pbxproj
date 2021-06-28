@@ -98,6 +98,8 @@
 		7ECF9031268A559300FC4077 /* LoginControllerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9030268A559300FC4077 /* LoginControllerFactoryTests.swift */; };
 		7ECF9032268A566800FC4077 /* AuthenticationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9020268A42ED00FC4077 /* AuthenticationSpy.swift */; };
 		7ECF9036268A5A1D00FC4077 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF9035268A5A1D00FC4077 /* Welcome.storyboard */; };
+		7ECF9038268A5B8800FC4077 /* WelcomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9037268A5B8800FC4077 /* WelcomeViewControllerTests.swift */; };
+		7ECF903A268A5E4C00FC4077 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9039268A5E4C00FC4077 /* WelcomeViewController.swift */; };
 		7EF818B026835CFC00F10614 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF818AF26835CFC00F10614 /* Validation.swift */; };
 		7EF818B126835D3900F10614 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9B9267D1A18004902F9 /* EmailValidator.swift */; };
 		7EF818B226835D5E00F10614 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9D0267E3182004902F9 /* EmailValidatorSpy.swift */; };
@@ -433,6 +435,8 @@
 		7ECF902E268A556400FC4077 /* RemoteAuthenticationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAuthenticationFactory.swift; sourceTree = "<group>"; };
 		7ECF9030268A559300FC4077 /* LoginControllerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerFactoryTests.swift; sourceTree = "<group>"; };
 		7ECF9035268A5A1D00FC4077 /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		7ECF9037268A5B8800FC4077 /* WelcomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewControllerTests.swift; sourceTree = "<group>"; };
+		7ECF9039268A5E4C00FC4077 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		7EF818AF26835CFC00F10614 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		7EF818B326835D8800F10614 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
 		7EF818C02683650700F10614 /* RequiredFieldValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidationTests.swift; sourceTree = "<group>"; };
@@ -1106,6 +1110,7 @@
 		7ECF9033268A591300FC4077 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				7ECF9037268A5B8800FC4077 /* WelcomeViewControllerTests.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -1114,6 +1119,7 @@
 			isa = PBXGroup;
 			children = (
 				7ECF9035268A5A1D00FC4077 /* Welcome.storyboard */,
+				7ECF9039268A5E4C00FC4077 /* WelcomeViewController.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -1879,6 +1885,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECF903A268A5E4C00FC4077 /* WelcomeViewController.swift in Sources */,
 				7EABDDCE2681142900DD2827 /* UIViewControllerExtensions.swift in Sources */,
 				7EABDDC02680C2E000DD2827 /* SignUpViewController.swift in Sources */,
 				7EABDDD02681164E00DD2827 /* Storyboarded.swift in Sources */,
@@ -1896,6 +1903,7 @@
 			files = (
 				7E80D9EA267E81CE004902F9 /* SignUpViewControllerTests.swift in Sources */,
 				7EABDDCB2681090000DD2827 /* TestExtensionsUI.swift in Sources */,
+				7ECF9038268A5B8800FC4077 /* WelcomeViewControllerTests.swift in Sources */,
 				7ECF9027268A4AB600FC4077 /* LoginViewControllerTests.swift in Sources */,
 				7ECF902B268A4F7100FC4077 /* TestExtensions.swift in Sources */,
 			);
