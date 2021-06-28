@@ -79,7 +79,7 @@
 		7EABDDBB2680C0D100DD2827 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80D99B267CE19B004902F9 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7EABDDC02680C2E000DD2827 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */; };
 		7EABDDC42680C4EB00DD2827 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */; };
-		7EABDDCB2681090000DD2827 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDCA2681090000DD2827 /* TestExtensions.swift */; };
+		7EABDDCB2681090000DD2827 /* TestExtensionsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDCA2681090000DD2827 /* TestExtensionsUI.swift */; };
 		7EABDDCE2681142900DD2827 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDCD2681142900DD2827 /* UIViewControllerExtensions.swift */; };
 		7EABDDD02681164E00DD2827 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EABDDCF2681164E00DD2827 /* Storyboarded.swift */; };
 		7EABDDDF26811D6E00DD2827 /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EABDDD626811D6E00DD2827 /* Validation.framework */; };
@@ -92,6 +92,7 @@
 		7ECF9024268A49C700FC4077 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF9023268A49C700FC4077 /* Login.storyboard */; };
 		7ECF9027268A4AB600FC4077 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9026268A4AB600FC4077 /* LoginViewControllerTests.swift */; };
 		7ECF9029268A4ADB00FC4077 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9028268A4ADB00FC4077 /* LoginViewController.swift */; };
+		7ECF902B268A4F7100FC4077 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE015267A8779003BE490 /* TestExtensions.swift */; };
 		7EF818B026835CFC00F10614 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF818AF26835CFC00F10614 /* Validation.swift */; };
 		7EF818B126835D3900F10614 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9B9267D1A18004902F9 /* EmailValidator.swift */; };
 		7EF818B226835D5E00F10614 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9D0267E3182004902F9 /* EmailValidatorSpy.swift */; };
@@ -408,7 +409,7 @@
 		7EA182852681213C00A2F5DC /* EmailValidatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorAdapter.swift; sourceTree = "<group>"; };
 		7EABDDBF2680C2E000DD2827 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7EABDDC32680C4EB00DD2827 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
-		7EABDDCA2681090000DD2827 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
+		7EABDDCA2681090000DD2827 /* TestExtensionsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensionsUI.swift; sourceTree = "<group>"; };
 		7EABDDCD2681142900DD2827 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		7EABDDCF2681164E00DD2827 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		7EABDDD626811D6E00DD2827 /* Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1020,7 +1021,7 @@
 		7EABDDC9268108E400DD2827 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				7EABDDCA2681090000DD2827 /* TestExtensions.swift */,
+				7EABDDCA2681090000DD2827 /* TestExtensionsUI.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1864,8 +1865,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E80D9EA267E81CE004902F9 /* SignUpViewControllerTests.swift in Sources */,
-				7EABDDCB2681090000DD2827 /* TestExtensions.swift in Sources */,
+				7EABDDCB2681090000DD2827 /* TestExtensionsUI.swift in Sources */,
 				7ECF9027268A4AB600FC4077 /* LoginViewControllerTests.swift in Sources */,
+				7ECF902B268A4F7100FC4077 /* TestExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
