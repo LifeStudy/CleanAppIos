@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign Up View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" id="Y6W-OH-hqX" customClass="SignUpViewController" customModule="UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="dash.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ayw-Qe-Imf">
+                                <rect key="frame" x="178" y="87" width="58" height="32"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daki" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIA-cC-FAI">
+                                <rect key="frame" x="183" y="137" width="48" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6bn-AS-Teh" customClass="RoundedTextField" customModule="UI" customModuleProvider="target">
+                                <rect key="frame" x="10" y="355" width="394" height="49"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5cb-m6-EDr" customClass="RoundedTextField" customModule="UI" customModuleProvider="target">
+                                <rect key="frame" x="10" y="449" width="394" height="49"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VB-Pr-n3s">
+                                <rect key="frame" x="10" y="698" width="394" height="49"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Cadastrar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Eb3-K4-1Sd">
+                                <rect key="frame" x="183" y="777" width="37" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yIA-cC-FAI" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="6Wu-el-sUv"/>
+                            <constraint firstItem="yIA-cC-FAI" firstAttribute="top" secondItem="Ayw-Qe-Imf" secondAttribute="bottom" constant="18" id="6X7-vR-sbo"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Eb3-K4-1Sd" secondAttribute="bottom" constant="48" id="7it-yj-t66"/>
+                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="top" secondItem="4VB-Pr-n3s" secondAttribute="bottom" constant="30" id="Czf-w4-gfH"/>
+                            <constraint firstItem="Ayw-Qe-Imf" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="DXj-Ay-ghF"/>
+                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="centerY" secondItem="4VB-Pr-n3s" secondAttribute="centerY" constant="73" id="GwV-fI-ckl"/>
+                            <constraint firstItem="Ayw-Qe-Imf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="43" id="LSK-Sv-wGi"/>
+                            <constraint firstItem="5cb-m6-EDr" firstAttribute="top" secondItem="6bn-AS-Teh" secondAttribute="bottom" constant="45" id="Yqp-Y6-8Jo"/>
+                            <constraint firstItem="5cb-m6-EDr" firstAttribute="height" secondItem="6bn-AS-Teh" secondAttribute="height" id="h2m-Jx-si5"/>
+                            <constraint firstItem="yIA-cC-FAI" firstAttribute="centerX" secondItem="Ayw-Qe-Imf" secondAttribute="centerX" id="mgS-vL-SYz"/>
+                            <constraint firstItem="5cb-m6-EDr" firstAttribute="leading" secondItem="6bn-AS-Teh" secondAttribute="leading" id="mjJ-hJ-bry"/>
+                            <constraint firstItem="Eb3-K4-1Sd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="183" id="oew-Ha-gu4"/>
+                            <constraint firstItem="5cb-m6-EDr" firstAttribute="trailing" secondItem="6bn-AS-Teh" secondAttribute="trailing" id="omO-je-xT2"/>
+                            <constraint firstItem="Ayw-Qe-Imf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="178" id="sbg-D3-Thv"/>
+                            <constraint firstItem="5cb-m6-EDr" firstAttribute="width" secondItem="6bn-AS-Teh" secondAttribute="width" id="z8Y-de-Asf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="6bn-AS-Teh" id="gM0-Mr-rPf"/>
+                        <outlet property="loadingIndicator" destination="Eb3-K4-1Sd" id="6YZ-Os-XdR"/>
+                        <outlet property="passwordTextField" destination="5cb-m6-EDr" id="gXp-CS-otZ"/>
+                        <outlet property="saveButton" destination="4VB-Pr-n3s" id="GZW-LP-Y87"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136.23188405797103" y="-66.294642857142861"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dash.png" width="32" height="32"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

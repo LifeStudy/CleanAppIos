@@ -89,6 +89,7 @@
 		7ECF901D268A3E4D00FC4077 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF901C268A3E4D00FC4077 /* LoginViewModel.swift */; };
 		7ECF901F268A3E6A00FC4077 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF901E268A3E6A00FC4077 /* LoginPresenter.swift */; };
 		7ECF9021268A42ED00FC4077 /* AuthenticationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF9020268A42ED00FC4077 /* AuthenticationSpy.swift */; };
+		7ECF9024268A49C700FC4077 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF9023268A49C700FC4077 /* Login.storyboard */; };
 		7EF818B026835CFC00F10614 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF818AF26835CFC00F10614 /* Validation.swift */; };
 		7EF818B126835D3900F10614 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9B9267D1A18004902F9 /* EmailValidator.swift */; };
 		7EF818B226835D5E00F10614 /* EmailValidatorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D9D0267E3182004902F9 /* EmailValidatorSpy.swift */; };
@@ -417,6 +418,7 @@
 		7ECF901C268A3E4D00FC4077 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		7ECF901E268A3E6A00FC4077 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		7ECF9020268A42ED00FC4077 /* AuthenticationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSpy.swift; sourceTree = "<group>"; };
+		7ECF9023268A49C700FC4077 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		7EF818AF26835CFC00F10614 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		7EF818B326835D8800F10614 /* ValidationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSpy.swift; sourceTree = "<group>"; };
 		7EF818C02683650700F10614 /* RequiredFieldValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredFieldValidationTests.swift; sourceTree = "<group>"; };
@@ -979,6 +981,7 @@
 		7EABDDC52680D8BA00DD2827 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				7ECF9022268A49B000FC4077 /* Login */,
 				7EABDDC62680D8C400DD2827 /* SignUp */,
 			);
 			path = Scenes;
@@ -996,6 +999,7 @@
 		7EABDDC72680D8D100DD2827 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				7ECF9025268A49E400FC4077 /* Login */,
 				7EABDDC82680D8D900DD2827 /* SignUp */,
 			);
 			path = Scenes;
@@ -1061,6 +1065,21 @@
 			children = (
 				7ECF901C268A3E4D00FC4077 /* LoginViewModel.swift */,
 				7ECF901E268A3E6A00FC4077 /* LoginPresenter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7ECF9022268A49B000FC4077 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7ECF9023268A49C700FC4077 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7ECF9025268A49E400FC4077 /* Login */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -1670,6 +1689,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECF9024268A49C700FC4077 /* Login.storyboard in Resources */,
 				7EABDDC42680C4EB00DD2827 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
