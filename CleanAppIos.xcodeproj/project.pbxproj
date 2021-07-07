@@ -19,6 +19,7 @@
 		7E152FE2267BD4C6008FB730 /* AddAccountIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E152FE1267BD4C6008FB730 /* AddAccountIntegrationTests.swift */; };
 		7E152FE4267BD4C6008FB730 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E40D7BA26793DEC00E5D1C2 /* Data.framework */; };
 		7E19B19B26952FEF00D201FE /* WelcomeRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E19B19A26952FEF00D201FE /* WelcomeRouterTests.swift */; };
+		7E19B19D2695340800D201FE /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E19B19C2695340800D201FE /* WelcomeRouter.swift */; };
 		7E1AE00E267A418E003BE490 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE00D267A418E003BE490 /* DomainError.swift */; };
 		7E1AE010267A4328003BE490 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE00F267A4328003BE490 /* HttpError.swift */; };
 		7E1AE013267A797E003BE490 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1AE012267A797E003BE490 /* ExtensionHelpers.swift */; };
@@ -357,6 +358,7 @@
 		7E152FE1267BD4C6008FB730 /* AddAccountIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountIntegrationTests.swift; sourceTree = "<group>"; };
 		7E152FE3267BD4C6008FB730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E19B19A26952FEF00D201FE /* WelcomeRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouterTests.swift; sourceTree = "<group>"; };
+		7E19B19C2695340800D201FE /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		7E1AE00D267A418E003BE490 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
 		7E1AE00F267A4328003BE490 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		7E1AE012267A797E003BE490 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
@@ -1123,6 +1125,7 @@
 			children = (
 				7ECF9035268A5A1D00FC4077 /* Welcome.storyboard */,
 				7ECF9039268A5E4C00FC4077 /* WelcomeViewController.swift */,
+				7E19B19C2695340800D201FE /* WelcomeRouter.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -1891,6 +1894,7 @@
 				7ECF903A268A5E4C00FC4077 /* WelcomeViewController.swift in Sources */,
 				7EABDDCE2681142900DD2827 /* UIViewControllerExtensions.swift in Sources */,
 				7EABDDC02680C2E000DD2827 /* SignUpViewController.swift in Sources */,
+				7E19B19D2695340800D201FE /* WelcomeRouter.swift in Sources */,
 				7EABDDD02681164E00DD2827 /* Storyboarded.swift in Sources */,
 				7EF819062683C43100F10614 /* RoundedTextField.swift in Sources */,
 				7ECF9029268A4ADB00FC4077 /* LoginViewController.swift in Sources */,
